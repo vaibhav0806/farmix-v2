@@ -1209,7 +1209,7 @@
     tailwind-merge "^1.14.0"
     tailwind-variants "^0.1.20"
 
-"@nextui-org/tooltip@2.0.36":
+"@nextui-org/tooltip@2.0.36", "@nextui-org/tooltip@^2.0.36":
   version "2.0.36"
   resolved "https://registry.yarnpkg.com/@nextui-org/tooltip/-/tooltip-2.0.36.tgz#59ca20f60f7e8268659e1ee3a9b7a7ff25ef971e"
   integrity sha512-tV3BefTvmYzSC4TX+UPV7p3F5fs52sFzQ1/Try/Bkz5B1F9yXviO9dV2/pqXSfOJVvLVJS2RMi5wZkaYh1xtNw==
@@ -5985,6 +5985,11 @@ react-dom@18.3.1:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.2"
+
+react-icons@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-5.2.1.tgz#28c2040917b2a2eda639b0f797bff1888e018e4a"
+  integrity sha512-zdbW5GstTzXaVKvGSyTaBalt7HSfuK5ovrzlpyiWHAFXndXTdd/1hdDHI4xBM1Mn7YriT6aqESucFl9kEXzrdw==
 
 react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
