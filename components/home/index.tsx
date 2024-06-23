@@ -25,7 +25,7 @@ export default function Hero() {
     if (user && user.farcaster && user.farcaster.username) {
       setLoading(true);
       const primaryUsername = user.farcaster.username;
-      const resp = await fetch("https://farmix-server-production.up.railway.app/calculateSimilarity", {
+      const resp = await fetch("https://farmix-server.fly.dev/calculateSimilarity", {
         method: "POST",
         body: JSON.stringify({
           primaryUsername: primaryUsername,
@@ -85,7 +85,7 @@ export default function Hero() {
           />
           <Tooltip
             content="Login first"
-            isDisabled={disableSearching}
+            isDisabled={!authenticated}
             offset={15}
             color="secondary"
           >
